@@ -2,7 +2,7 @@
 # Type in the terminal: python <filename>.py
 # In this case: python generate_Verilog_template.py
 
-skeleton = """//
+template = """//
 
 // <Include module description here>
 
@@ -34,4 +34,4 @@ endmodule
 # The print() adds the trailing newline to make a blank line
 
 if __name__ == "__main__":
-    print(skeleton)
+    print(template)
